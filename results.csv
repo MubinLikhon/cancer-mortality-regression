@@ -1,0 +1,8 @@
+Model,Evaluation,R2
+Linear Regression,Local test,0.5964
+Random Forest,Local test,0.6305
+Gradient Boosting,Local test,0.6612
+CatBoost + Deaths_per_100k,Local test,0.8529
+CatBoost + Deaths_per_100k,5-fold CV mean,0.8364
+CatBoost + Deaths_per_100k,Kaggle public leaderboard (30%),0.83616
+CatBoost + Deaths_per_100k,Kaggle private leaderboard (70%),0.65
